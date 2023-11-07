@@ -52,17 +52,16 @@ background-position: center;
 /* background-repeat: no-repeat; */
 background-size: cover;
 background-attachment: fixed;
-
-
 }
 
 .col-sm-6{
   align-items: center;
+ 
 }
 
 .col-sm-6:hover{
   transform: scale(1.2);
-  transition-duration: .3s;
+  transition-duration: .8s;
   filter: grayscale(50%);
   opacity: .7;
 }
@@ -94,13 +93,14 @@ padding: 5%;
     z-index: 1;
     margin: 80px auto;
     align-self: center;
+
     border-top: solid 3px;
     border-bottom: solid 3px;
 }
 
 /* Blockquote header */
 .blockquote h1 {
-    
+    align-content: start !important;
     color: white;
     font-size: 40px;
     font-weight: 800;

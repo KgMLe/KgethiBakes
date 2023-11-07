@@ -12,6 +12,7 @@
 				</div>
 				<div class="col-lg-5">
 					<div class="button_box">
+            <!-- router to request quote -->
 						<a href="#" class="btn btn-warning">Hire Us</a>
 					</div>
 				</div>
@@ -92,7 +93,7 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="copyright_text">
-						<p>Copyright &copy; 2020 All rights reserved.</p>
+						<p>Copyright &copy; 2023 Site built by Kgodisho Lebopa.</p>
 					</div>
 				</div>
 			</div>
@@ -191,7 +192,7 @@
 }
 
 .deneb_footer .copyright_area {
-    background: #edecf0;
+    background: #e75830;
     padding: 10px 0;
 }
 .deneb_footer .copyright_area .copyright_text {
@@ -227,7 +228,7 @@
     z-index: -1;
 }
 .deneb_cta .cta_wrapper .cta_content h3 {
-    color: #fff;
+    color: black;
     font-weight: bold;
 }
 @media (max-width: 767px) {
@@ -244,7 +245,7 @@
     margin-bottom: 24px;
 }
 .deneb_cta .cta_wrapper .cta_content p {
-    color: #fff;
+    color: black;
 }
 .deneb_cta .cta_wrapper .button_box {
     float: right;
