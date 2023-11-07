@@ -1,10 +1,44 @@
 <template>
   <div class="container-fluid">
     <div class="row" id="landingpage">
-<p>
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consequuntur distinctio sit odio rerum atque explicabo labore recusandae. Maiores dolor similique rerum unde dolorem repellendus a optio adipisci impedit molestiae?
-</p>
+      <div class="blockquote-wrapper">
+  <div class="blockquote">
+    <h1>
+      Life's Short, Eat More Cake: 
+      We're <br>Here to Sweeten Your Moments
+     </h1>
+  </div>
+</div>
     </div>
+
+    <div class="container-fluid">
+<div class="row" id="landingcta">
+  <div class="container">
+  <P>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae recusandae veniam dicta iusto cumque, commodi, sapiente aperiam molestias id totam illo minus? Laborum accusantium ipsa veritatis inventore. Molestiae, ipsum odio?
+  </P>
+  </div>
+  <div class="col-sm-6" id="col1">
+      <h1>
+        We Bake
+      </h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ad consequuntur fugit amet. Optio error beatae reprehenderit ullam. Iure aperiam sint ipsum consectetur facere quis vero nostrum qui tempora sed.</p>
+      <button>
+      Button
+    </button>
+    </div>
+    <div class="col-sm-6" id="col2">
+      <h1>
+        We Cook
+      </h1>
+
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum hic reiciendis excepturi illo quaerat quasi! Sapiente sint nulla odit consequatur voluptate iusto corrupti non similique sit, assumenda magni quia recusandae?</p>
+      <button>
+      Button
+    </button>
+    </div>
+</div>
+</div> 
   </div>
 </template>
 
@@ -12,13 +46,70 @@
 </script>
 
 <style scoped>
-.container-fluid{
-  background-color: #e2c8b0 !important;
-  background-image: url("https://dmrqkbkq8el9i.cloudfront.net/Pictures/1024x536/2/5/7/277257_gettyimages13920538011_184307.jpg");
+#landingpage{
+background-image: url("https://i.postimg.cc/9z3fkbfv/cover-image.jpg");
+background-position: center;
+/* background-repeat: no-repeat; */
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+.col-sm-6{
+  align-items: center;
+}
+
+.col-sm-6:hover{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter: grayscale(50%);
+  opacity: .7;
+}
+
+#col1{
+background-image: url("https://i.postimg.cc/vB8W74Xt/IMG-4623.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+padding: 5%;
 }
 
+#col2{
+background-image: url("https://media.citizen.co.za/wp-content/uploads/2023/04/Flying-fish-neos-kota-1200x960-1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 5%;
+}
 
+.blockquote {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #44A1A0;
+    padding: 7%;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin: 80px auto;
+    align-self: center;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+}
+
+/* Blockquote header */
+.blockquote h1 {
+    
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+}
+
+#landingcta{
+  padding: 5%;
+
+}
 </style>
