@@ -47,7 +47,7 @@
 
 <style scoped>
 #landingpage{
-background-image: url("https://i.postimg.cc/9z3fkbfv/cover-image.jpg");
+background-image: url("https://www.foodandwine.com/thmb/d894lH2RTu6tJoR0N78hSkXXy2g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/maria-cookies-icebox-cake-FT-RECIPE0521-4089012694154e40a90e368863e4fa08.jpg");
 background-position: center;
 /* background-repeat: no-repeat; */
 background-size: cover;
@@ -56,6 +56,7 @@ background-attachment: fixed;
 
 .col-sm-6{
   align-items: center;
+  padding: 10px;
  
 }
 
@@ -67,7 +68,7 @@ background-attachment: fixed;
 }
 
 #col1{
-background-image: url("https://i.postimg.cc/vB8W74Xt/IMG-4623.jpg");
+background-image: url("https://m.media-amazon.com/images/I/71hJGezj2OS._AC_UF1000,1000_QL80_.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;

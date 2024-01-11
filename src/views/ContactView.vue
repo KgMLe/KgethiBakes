@@ -332,7 +332,7 @@
   width: 100%;
   height: 420px;
   background-color: #d9d9d9;
-  background-image: url("https://wild-wings-safaris.com/uploads/files/cape-town-map.jpg");
+  background-image: url("https://alittlecake.com/wp-content/uploads/2022/04/Cherry-Blossom-Fondant-Iced-Wedding-Cake.jpg");
   background-size: cover;
   background-position-x: 50%;
   background-position-y: 50%;

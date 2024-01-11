@@ -6,14 +6,14 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7">
 					<div class="cta_content">
-						<h3>Have Any Project in Mind ?</h3>
-						<p>Curabitur libero eros, efficitur sit amet sodales tincidunt, aliquet et leo sed ut nibh feugiat, auctor enim quis.</p>
+						<h3>Ready to explore your palette?</h3>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, error eaque. Libero iusto, doloremque corrupti ducimus earum quam quaerat nobis officiis illo soluta, incidunt, mollitia blanditiis velit unde! Mollitia, dolorem?.</p>
 					</div>
 				</div>
 				<div class="col-lg-5">
 					<div class="button_box">
             <!-- router to request quote -->
-						<a href="#" class="btn btn-warning">Hire Us</a>
+						<a href="#" class="btn btn-warning">Get In Touch</a>
 					</div>
 				</div>
 			</div>
