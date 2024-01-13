@@ -2,7 +2,7 @@
   <div>
       <nav class="navbar bg-body-tertiary fixed-top">
 <div class="container-fluid">
-  <a class="navbar-brand" href="/"><img id ="logo" src="https://pub-static.fotor.com/assets/projects/pages/eda270f2-5339-4c43-a807-70c0f3b40dd6/600w/orange-cake-store-icon-a1c9f9fe-2770-4cce-9499-44bf4d3293c3.jpg" alt="logo" loading="lazy"></a>
+  <a class="navbar-brand" href="/"><img id ="logo" src="https://iili.io/JYTwMml.md.jpg" alt="logo" loading="lazy"></a>
   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
     <span class="material-symbols-outlined">
 restaurant_menu

@@ -176,7 +176,7 @@
     <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
       <h5 class="text-uppercase mb-4">OPERATING HOURS</h5>
 
-       <table class="table text-center text-white">
+       <table class="table text-center">
         <tbody class="font-weight-normal">
           <tr>
             <td>Mon - Thu:</td>
@@ -232,6 +232,10 @@
     background-image: -ms-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
     box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
     z-index: 1;
+}
+
+.table{
+    background-color:#e75830;   
 }
 /* .deneb_footer .widget_wrapper {
     background-color:#e75830 ;

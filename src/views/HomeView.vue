@@ -23,8 +23,8 @@
         We Bake
       </h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam ad consequuntur fugit amet. Optio error beatae reprehenderit ullam. Iure aperiam sint ipsum consectetur facere quis vero nostrum qui tempora sed.</p>
-      <button>
-      Button
+      <button class="btn">
+        <router-link to="/gallery" class="btn links_nav text-white">Gallery</router-link>
     </button>
     </div>
     <div class="col-sm-6" id="col2">
@@ -33,8 +33,8 @@
       </h1>
 
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum hic reiciendis excepturi illo quaerat quasi! Sapiente sint nulla odit consequatur voluptate iusto corrupti non similique sit, assumenda magni quia recusandae?</p>
-      <button>
-      Button
+      <button class="btn">
+        <router-link to="/kgethiskotas" class="btn links_nav text-white" style>Kgethi Bakes Kota</router-link>
     </button>
     </div>
 </div>
@@ -54,10 +54,17 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+.btn{
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius:10px
+}
+
 .col-sm-6{
   align-items: center;
   padding: 10px;
- 
+  border: 3px white;
 }
 
 .col-sm-6:hover{
@@ -72,6 +79,7 @@ background-image: url("https://m.media-amazon.com/images/I/71hJGezj2OS._AC_UF100
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+border-radius: 10px;
 padding: 5%;
 }
 
@@ -80,6 +88,7 @@ background-image: url("https://media.citizen.co.za/wp-content/uploads/2023/04/Fl
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+border-radius: 10px;
 padding: 5%;
 }
 
