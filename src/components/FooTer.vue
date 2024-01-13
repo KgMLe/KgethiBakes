@@ -1,13 +1,13 @@
 <template>
   <div>
-    <section class="deneb_cta">
+    <section class="deneb_cta" style ="padding:50px">
 	<div class="container">
 		<div class="cta_wrapper">
 			<div class="row align-items-center">
 				<div class="col-lg-7">
 					<div class="cta_content">
 						<h3>Ready to explore your palette?</h3>
-						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, error eaque. Libero iusto, doloremque corrupti ducimus earum quam quaerat nobis officiis illo soluta, incidunt, mollitia blanditiis velit unde! Mollitia, dolorem?.</p>
+						<p>Whether savoury or sweet, we are here to supply any treat!</p>
 					</div>
 				</div>
 				<div class="col-lg-5">
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 </section>
-<footer class="deneb_footer">
+<!-- <footer class="deneb_footer">
 	<div class="widget_wrapper" style="background-image: url(http://demo.tortoizthemes.com/deneb-html/deneb-ltr/assets/images/footer_bg.png);">
 		<div class="container">
 			<div class="row">
@@ -99,7 +99,115 @@
 			</div>
 		</div>
 	</div>
-</footer>   
+</footer>    -->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="my-footer">
+
+<footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+<!-- Grid container -->
+<div class="container p-4">
+  <!--Grid row-->
+  <div class="row">
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5 class="text-uppercase mb-4">About company</h5>
+      <p>
+        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+        voluptatum deleniti atque corrupti.
+      </p>
+      <div class="mt-4">
+        <!-- Facebook -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-facebook-f"></i></a>
+        <!-- Dribbble -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-dribbble"></i></a>
+        <!-- Twitter -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-twitter"></i></a>
+        <!-- Google + -->
+        <a type="button" class="btn btn-floating btn-warning btn-lg"><i class="fab fa-google-plus-g"></i></a>
+        <!-- Linkedin -->
+      </div>
+    </div>
+    <!--Grid column-->
+
+    <!--QUICK LINKS-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+     <h5 class="text-uppercase mb-4">QUICK LINKS</h5>
+
+      <ul class="list-unstyled mb-4">
+        <li>
+          <a href="#!" class="text-white">About us</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Collections</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Environmental philosophy</a>
+        </li>
+        <li>
+          <a href="#!" class="text-white">Artist collaborations</a>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Contact Info-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5 class="text-uppercase mb-4">Contact Us</h5>
+
+      <ul class="fa-ul mb-4" style="text-align: center">
+        <li class="mb-3" style= "list-style-type: none">
+          <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+        </li>
+        <li class="mb-3" style= "list-style-type: none">
+          <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+        </li>
+        <li class="mb-3" style= "list-style-type: none">
+          <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+        </li>
+        <li class="mb-3" style= "list-style-type: none">
+          <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+        </li>
+      </ul>
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+      <h5 class="text-uppercase mb-4">OPERATING HOURS</h5>
+
+       <table class="table text-center text-white">
+        <tbody class="font-weight-normal">
+          <tr>
+            <td>Mon - Thu:</td>
+            <td>8am - 9pm</td>
+          </tr>
+          <tr>
+            <td>Fri - Sat:</td>
+            <td>8am - 1am</td>
+          </tr>
+          <tr>
+            <td>Sunday:</td>
+            <td>9am - 10pm</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Grid column-->
+  </div>
+  <!--Grid row-->
+</div>
+<!-- Grid container -->
+
+<!-- Copyright -->
+<div class="text-center p-3 border-top border-white">
+  © 2020 Copyright:
+  <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+</footer>
+
+</div>
+<!-- End of .container -->
   </div>
 </template>
 
@@ -107,7 +215,25 @@
 </script>
 
 <style scoped>
-.deneb_footer .widget_wrapper {
+.my-footer{
+    background-color:#e75830;
+}
+
+.cta_wrapper {
+    padding: 45px 50px 42px;
+    max-width: 970px;
+    border-radius: 15px;
+    margin: auto;
+    /* margin-bottom: -135px; */
+    position: relative;
+    background-image: -moz-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    background-image: -webkit-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    background-image: -ms-linear-gradient(0deg, #ffbd27 0%, #feb000 100%);
+    box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+    z-index: 1;
+}
+/* .deneb_footer .widget_wrapper {
+    background-color:#e75830 ;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 200px;
@@ -271,5 +397,5 @@
 .deneb_cta .cta_wrapper .button_box .deneb_btn:hover,
 .deneb_cta .cta_wrapper .button_box .deneb_btn:focus {
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.15);
-}
+} */
 </style>

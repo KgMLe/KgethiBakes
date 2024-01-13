@@ -19,7 +19,7 @@
   <div class="container">
     <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
       <div class="col-12 col-lg-6 col-xl-5">
-        <img class="img-fluid rounded" loading="lazy" src="https://i.postimg.cc/dtnkR4hD/1658336948351.jpg" alt="KgethiBakesOwner">
+        <img class="img-fluid rounded" loading="lazy" src="https://scontent.fcpt2-1.fna.fbcdn.net/v/t39.30808-6/365596105_1001066204594988_1379023158393439843_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=vMWu-3iDSlsAX9QwQsV&_nc_zt=23&_nc_ht=scontent.fcpt2-1.fna&oh=00_AfBkmNJ64VSyM5cOSkkPK_EM1GRc1fF4mCeTnBpp9sx88g&oe=65A8B4A6" alt="KgethiBakesOwner">
       </div>
       <div class="col-12 col-lg-6 col-xl-7">
         <div class="row justify-content-xl-center">
