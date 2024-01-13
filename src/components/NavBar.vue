@@ -11,7 +11,7 @@ restaurant_menu
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-        <a href="../views/HomeView.vue"> <img id ="logo" src="https://i.postimg.cc/sgLsMmMm/kgethibakeslogocrop-removebg-preview.png" alt="logo" loading="lazy"></a>
+        <a href="../views/HomeView.vue"> <img id ="logo" src="https://iili.io/JYTwMml.md.jpg" alt="logo" loading="lazy"></a>
        </h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
